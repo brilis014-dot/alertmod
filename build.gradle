@@ -20,6 +20,11 @@ loom {
             sourceSet sourceSets.client
         }
     }
+
+    // Жестко отключаем обработку unpick в самом плагине Loom
+    unpick {
+        enabled = false
+    }
 }
 
 dependencies {
