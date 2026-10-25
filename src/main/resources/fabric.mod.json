@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "alertmod",
+  "version": "1.0.0",
+  "name": "Admin Alert Mod",
+  "description": "Кликабельные анонсы в чате",
+  "authors": ["Alexej"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "server",
+  "entrypoints": {
+    "server": [
+      "net.yourname.alertmod.AlertMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.21",
+    "java": ">=21"
+  }
+}
