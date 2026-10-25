@@ -20,6 +20,9 @@ loom {
             sourceSet sourceSets.client
         }
     }
+
+    // Отключаем несовместимый unpick для маппингов Yarn
+    unpickDefinitions.set([])
 }
 
 dependencies {
